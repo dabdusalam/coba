@@ -1,0 +1,711 @@
+body {
+  background-color: #FFF;
+  font-family: 'Assistant', sans-serif;
+  color: #071c4d;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, right top, from(#2196F3), to(#C1FCD3));
+  background: linear-gradient(to right, #2196F3, #C1FCD3);
+}
+
+header .navbar-light {
+  padding: 14px 16px;
+}
+
+header .navbar-light .navbar-toggler {
+  margin-top: 20px;
+}
+
+header .navbar-light .navbar-logo {
+  float: left;
+}
+
+header .navbar-light .card-navbar {
+  float: right;
+  border-radius: 35px;
+  background: #fff;
+  border: 1px solid #707070;
+}
+
+header .navbar-light .navbar-nav {
+  font-family: Assistant;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+
+header .navbar-light .navbar-nav .nav-item {
+  padding: 0;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+
+header .navbar-light .navbar-nav .nav-buttom {
+  padding: 8px;
+  width: 130px;
+  border-radius: 0px 34px 34px 0px;
+  background: #071c4d;
+}
+
+header .navbar-light .navbar-nav .nav-buttom .dropdown-menu-search {
+  padding: 0;
+  border-radius: 11px;
+  margin-top: 12px;
+  border: 0 solid;
+}
+
+header .navbar-light .navbar-nav .nav-buttom .dropdown-menu-search .search {
+  border-radius: 11px;
+  width: 450px;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  header .navbar-light .navbar-nav .nav-buttom-mobile {
+    padding: 8px;
+    border-radius: 11px;
+    background: #071c4d;
+    width: 250px;
+  }
+  header .navbar-light .navbar-nav .nav-buttom-mobile .search {
+    border: 0;
+    background: transparent;
+    color: #fff;
+  }
+  header .navbar-light .navbar-nav .nav-buttom-mobile .button {
+    border-radius: 11px;
+  }
+}
+
+header .navbar-light .navbar-nav .nav-buttom-mobile {
+  padding: 8px;
+  border-radius: 11px;
+  background: #071c4d;
+}
+
+header .navbar-light .navbar-nav .nav-buttom-mobile .search {
+  border: 0;
+  background: transparent;
+  color: #fff;
+}
+
+header .navbar-light .navbar-nav .nav-buttom-mobile .button {
+  border-radius: 11px;
+}
+
+.section-isi-content {
+  padding-top: 30px;
+  margin-bottom: -40px;
+}
+
+.section-isi-content .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 0px;
+}
+
+.section-isi-content .breadcrumb-item.active {
+  font-weight: 700;
+  color: #071C4D;
+}
+
+.content-judul .judul {
+  font-family: Georgia;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  text-align: left;
+  color: #071c4d;
+  margin-left: 10px;
+}
+
+.content-judul hr {
+  margin-top: -8px;
+  height: 6px;
+  border-radius: 3px;
+  background: #b9e1ff;
+}
+
+.container-isi {
+  margin-top: 60px;
+}
+
+.container-isi .content .content-isi .row-content-isi {
+  padding-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.container-isi .content .content-isi .content-isi-berita {
+  margin-right: 18px;
+}
+
+.container-isi .content .content-isi .content-isi-berita .card-indeks-content {
+  width: 80px;
+  height: 16px;
+  border-radius: 8px;
+  background: #1147ff;
+  border: 1px solid #707070;
+  margin-top: 15px;
+}
+
+.container-isi .content .content-isi .content-isi-berita .card-indeks-content p {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.container-isi .content .content-isi .content-isi-berita h2 {
+  font-size: 18px;
+  text-align: left;
+  width: 348px;
+  padding-top: 15px;
+}
+
+.container-isi .content .content-isi .content-isi-berita h2 a {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 18px;
+  color: #906f16;
+}
+
+.container-isi .content .content-isi .img-content-isi {
+  width: 348px;
+  height: 170px;
+  -webkit-box-shadow: 0px 3px 6px #000;
+          box-shadow: 0px 3px 6px #000;
+}
+
+.container-isi .content .card-sekilas {
+  padding: 10px;
+  color: #333;
+}
+
+.container-isi .content .card-sekilas h3 {
+  margin-bottom: 20px;
+}
+
+.container-isi .content .card-sekilas h4 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.container-isi .content .card-sekilas p {
+  font-size: 16px;
+}
+
+.container-isi .content .card-search {
+  padding: 20px;
+  border-radius: 11px;
+  margin-left: 10px;
+  width: 89%;
+  color: #071C4D;
+  font-weight: bold;
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+  .container-isi .content .card-search .search_kecamatan {
+    width: 100%;
+  }
+  .container-isi .content .card-search .search_kelurahan {
+    width: 100%;
+  }
+}
+
+.container-isi .content .card-search .search_kecamatan {
+  border-radius: 11px;
+}
+
+.container-isi .content .card-search .search_kelurahan {
+  border-radius: 11px;
+}
+
+.container-isi .content .card-search .kata-kunci {
+  width: 95%;
+  border-radius: 11px;
+  background: #fff;
+  border: 1px solid #707070;
+}
+
+.container-isi .content .card-search td {
+  padding: 5px;
+}
+
+.container-isi .content .card-search .tgl {
+  border-radius: 11px;
+  border: 1px solid #707070;
+}
+
+.container-isi .content .card-search .kirim_wilayah {
+  background-color: #071C4D;
+  border-radius: 11px;
+  border: 1px transparent;
+  color: #fff;
+  padding: 2px 10px;
+}
+
+.container-isi .content .card-search .kirim_arsip {
+  background-color: #071C4D;
+  border-radius: 11px;
+  border: 1px transparent;
+  color: #fff;
+  padding: 2px 10px;
+}
+
+.container-isi .content .card-masuk {
+  padding: 20px;
+  border-radius: 11px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.container-isi .content .card-masuk p {
+  font-weight: bold;
+}
+
+.container-isi .content .card-masuk td {
+  padding: 10px;
+}
+
+.container-isi .content .card-masuk input {
+  width: 100%;
+  margin-bottom: 0;
+  border-radius: 11px;
+  border: 1px solid #707070;
+}
+
+.container-isi .content .card-masuk .masuk {
+  padding-right: 80px;
+}
+
+.container-isi .content .card-masuk .kirim-masuk {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.container-isi .content .card-keamanan {
+  margin-top: 50px;
+  padding: 30px;
+  color: #000;
+  border-radius: 11px;
+  border: 1px solid #2d2929;
+}
+
+.container-isi .content .card-keamanan h2 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.container-isi .content .card-keamanan h2 a {
+  color: #142856;
+}
+
+.container-isi .content .card-keamanan p {
+  font-size: 15px;
+}
+
+.container-isi .content .content-isi-keamanan {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.container-isi .content .content-isi-keamanan .img-content-isi {
+  width: 323px;
+  height: 162px;
+  -webkit-box-shadow: 0px 3px 6px #000000;
+          box-shadow: 0px 3px 6px #000000;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+.container-isi .content .content-isi-keamanan .content-isi-berita {
+  margin-bottom: 25px;
+}
+
+.container-isi .content .content-isi-keamanan .content-isi-berita .judul {
+  font-family: Arial;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.container-isi .content .content-isi-keamanan .content-isi-berita .judul a {
+  color: #906f16;
+}
+
+.container-isi .content .content-isi-keamanan .content-isi-berita p {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+  color: #303030;
+}
+
+.container-isi .content .content-isi-keamanan .content-isi-berita hr {
+  width: auto;
+  height: 0px;
+  background: transparent;
+  border: 1px solid #303030;
+}
+
+.container-isi .content .content-isi-keamanan .card-indeks-content {
+  width: 80px;
+  height: 16px;
+  border-radius: 8px;
+  background: #1147ff;
+  border: 1px solid #707070;
+  margin-bottom: 8px;
+}
+
+.container-isi .content .content-isi-keamanan .card-indeks-content p {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.container-isi .content .pagination-arsip-keamanan {
+  margin-top: 20px;
+}
+
+.container-isi .content .pagination-arsip-keamanan a {
+  color: #142856;
+  font-weight: 600;
+}
+
+.container-isi .content .card-detail-kontributor {
+  border-radius: 11px;
+  padding: 20px;
+}
+
+.container-isi .card-isi {
+  padding: 25px;
+  border-radius: 11px;
+  border: 1px solid #5c5b5b;
+  margin-bottom: 20px;
+}
+
+.container-isi .card-isi .row-isi {
+  margin: 10px 15px 0 0;
+}
+
+.container-isi .card-isi .row-isi p {
+  color: #8c8c8c;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.container-isi .card-isi h1 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  color: #333;
+  margin-bottom: 0px;
+}
+
+.container-isi .card-isi img {
+  width: 680px;
+  margin: 10px 0 30px 0;
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+  .container-isi .card-isi img {
+    width: 315px;
+    margin: 30px 0;
+  }
+}
+
+.container-isi .card-isi p {
+  margin-bottom: 0px;
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #000;
+}
+
+.container-isi .card-isi p span {
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.container-isi .popular .popular-content {
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+.container-isi .popular .popular-content .popular-content-isi {
+  padding-bottom: 5px;
+}
+
+.container-isi .popular .popular-content .popular-content-isi h3 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.container-isi .popular .popular-content .popular-content-isi h3 a {
+  color: #303030;
+}
+
+.container-isi .popular .popular-content .popular-content-isi p {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 10px;
+  text-align: left;
+  color: #303030;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+
+.container-isi .popular .popular-content .popular-content-isi p .index {
+  float: left;
+}
+
+.container-isi .popular .popular-content .popular-content-isi hr {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 1px solid #303030;
+}
+
+.container-isi .about-news {
+  padding-top: 30px;
+}
+
+.container-isi .about-news .about-news-content {
+  margin: 0 10px 10px 10px;
+}
+
+.container-isi .about-news .about-news-content a {
+  color: #303030;
+  font-size: 15px;
+  font-weight: bold;
+  width: auto;
+  padding-left: 10px;
+}
+
+.container-isi .about-news .about-news-content hr {
+  margin: 5px 0;
+}
+
+.container-isi .extra-content {
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+.container-isi .extra-content .extra-content-isi {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.container-isi .extra-content .extra-content-isi .img-extra-content-isi {
+  width: 323px;
+  height: 162px;
+  -webkit-box-shadow: 0px 3px 6px #000000;
+          box-shadow: 0px 3px 6px #000000;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+.container-isi .extra-content .extra-content-isi .extra-content-isi-berita {
+  margin-bottom: 25px;
+}
+
+.container-isi .extra-content .extra-content-isi .extra-content-isi-berita .judul {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.container-isi .extra-content .extra-content-isi .extra-content-isi-berita .judul a {
+  color: #906f16;
+}
+
+.container-isi .extra-content .extra-content-isi .extra-content-isi-berita p {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+  color: #303030;
+}
+
+.container-isi .extra-content .extra-content-isi .extra-content-isi-berita hr {
+  width: auto;
+  height: 0px;
+  background: transparent;
+  border: 1px solid #303030;
+}
+
+.container-isi .extra-content .extra-content-isi .card-indeks-extra-content {
+  width: 80px;
+  height: 16px;
+  border-radius: 8px;
+  background: #1147ff;
+  border: 1px solid #707070;
+  margin-bottom: 8px;
+}
+
+.container-isi .extra-content .extra-content-isi .card-indeks-extra-content p {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.container-isi .extra-content .card-arsip {
+  margin-top: 50px;
+  padding: 30px;
+  color: #000;
+  border-radius: 11px;
+  border: 1px solid #2d2929;
+}
+
+.container-isi .extra-content .card-arsip h2 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.container-isi .extra-content .card-arsip h2 a {
+  color: #142856;
+}
+
+.container-isi .extra-content .card-arsip p {
+  font-size: 15px;
+}
+
+.container-isi .extra-content .card-kontributor .widget-body {
+  padding: 20px;
+}
+
+.container-isi .extra-content .card-kontributor .widget-body a {
+  color: #000;
+}
+
+.container-isi .extra-content .card-kontributor .widget-body .well {
+  border-radius: 11px;
+  border: 1px solid #303030;
+}
+
+.container-isi .extra-content .card-kontributor .widget-body .well .kiriman {
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.container-isi .extra-content .card-arsip-kontributor {
+  border-radius: 11px;
+  padding: 20px;
+}
+
+.container-isi .extra-content .card-arsip-kontributor p {
+  margin: 0;
+}
+
+.container-isi .extra-content .pagination-kontributor {
+  margin-top: 20px;
+}
+
+.container-isi .extra-content .pagination-kontributor a {
+  color: #142856;
+  font-weight: 600;
+}
+
+.container-isi .extra-content .pagination-arsip {
+  margin-top: 20px;
+}
+
+.container-isi .extra-content .pagination-arsip a {
+  color: #142856;
+  font-weight: 600;
+}
+
+.container-isi .extra-content-contributor .contributor {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.container-isi .extra-content-contributor .contributor .card-contributor {
+  border-radius: 10px;
+  border: 1px solid;
+  width: 280px;
+}
+
+.container-isi .extra-content-contributor .contributor .card-contributor .no {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container-isi .extra-content-contributor .contributor .card-contributor td {
+  padding: 6px 0;
+}
+
+.mainsection {
+  margin-bottom: 100px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #707070;
+}
+
+.mainsection .btn-get-started {
+  background-color: #288512;
+  font-weight: bold;
+  color: white;
+}
+
+.extra-mainsection {
+  padding-top: 30px;
+}
+
+.extra-mainsection hr {
+  border: 1px solid #707070;
+}
+
+.extra-mainsection .extra-index .extra-index-link {
+  font-family: Assistant;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  color: #b8b8b8;
+}
+
+.extra-mainsection ul {
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+
+footer {
+  margin-top: 15px;
+  background: #353535;
+  border: 1px solid #707070;
+}
+
+footer p {
+  padding: 8px 0;
+  margin-bottom: 0px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #dbf0ce;
+}
+/*# sourceMappingURL=main.css.map */

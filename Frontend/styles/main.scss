@@ -1,0 +1,744 @@
+body{
+    background-color: #FFF;
+    font-family: 'Assistant', sans-serif;
+    color: #071c4d;
+
+}
+
+header{
+   background: linear-gradient(to right, #2196F3, #C1FCD3);
+
+    .navbar-light{
+        
+        
+        padding: 14px 16px;
+
+        .navbar-toggler{
+            margin-top: 20px;
+        }
+        .navbar-logo{
+            float: left;
+        }
+        
+        .card-navbar{
+            //width: 630px;
+            //height: 40px;
+            float: right;
+            border-radius: 35px;
+            background: #fff;
+            border: 1px solid #707070;
+        
+        }
+        .navbar-nav{
+            
+            //padding: 5px 10px;
+            font-family: Assistant;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: left;
+
+            
+            .nav-item{
+                padding: 0;
+            }
+            .nav-link{
+                color: #071c4d;
+            }
+            .nav-buttom{
+                padding: 8px;
+                width: 130px;
+                border-radius: 0px 34px 34px 0px;
+                background:#071c4d;
+                .dropdown-menu-search{
+                    padding: 0;
+                    border-radius: 11px;
+                    margin-top: 12px;
+                    border: 0 solid;
+                    .search{
+                        border-radius: 11px;
+                        width: 450px;
+                    }
+
+                }                
+            }
+
+            @media (min-width:800px) and (max-width: 1000px){
+                .nav-buttom-mobile{
+                    padding: 8px;            
+                    border-radius: 11px;
+                    background:#071c4d;
+                    width: 250px;
+                    
+                    .search{
+                        border: 0;
+                        background: transparent;
+                        color: #fff;
+                    }
+                    .button{
+                        border-radius: 11px;
+                    }     
+    
+                } 
+            }
+
+            .nav-buttom-mobile{
+                padding: 8px;            
+                border-radius: 11px;
+                background:#071c4d;
+                
+                .search{
+                    border: 0;
+                    background: transparent;
+                    color: #fff;
+                }
+                .button{
+                    border-radius: 11px;
+                }     
+
+            }           
+            
+        }
+
+    }
+}
+
+
+.section-isi-content{
+    padding-top: 30px;
+    margin-bottom: -40px; 
+   
+    .breadcrumb{
+        background-color: transparent;
+        margin-bottom: 0px; 
+       
+    }
+    .breadcrumb-item{
+        &.active{
+            font-weight: 700;
+            color: #071C4D;
+        }
+    }
+}
+
+.content-judul{
+    .judul{
+        font-family: Georgia;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 20px;
+        text-align: left;
+        color: #071c4d;
+        
+        margin-left: 10px;
+
+    }
+    hr{
+        margin-top: -8px;
+        height: 6px;
+        border-radius: 3px;
+        background: #b9e1ff;
+
+    }
+
+}
+
+.container-isi{
+    margin-top: 60px;
+    //Berita terkini
+    .content{
+        
+        .content-isi{
+            
+            .row-content-isi{
+                padding-top: 30px;
+                margin-left: 10px;
+                margin-bottom: 25px;
+                
+            }
+            .content-isi-berita{
+                margin-right: 18px;
+                .card-indeks-content{
+                    width: 80px;
+                    height: 16px;
+                    border-radius: 8px;
+                    background: #1147ff;
+                    border: 1px solid #707070;
+                    margin-top: 15px;
+                    p{
+                        font-family: "Segoe UI";
+                        font-weight: bold;
+                        font-size: 10px;
+                        text-align: center;
+                        color: #fff;
+                    }
+
+                }
+                h2{
+                    font-size: 18px;
+                    text-align: left;
+                    width: 348px;
+                    padding-top: 15px;
+                    a{
+                        font-family: Georgia;
+                        font-weight: bold;
+                        font-size: 18px;
+                        color: #906f16;
+                    }
+
+                }
+
+            }
+
+            .img-content-isi{
+                width: 348px;
+                height: 170px;
+                box-shadow: 0px 3px 6px #000;
+            }
+
+        }
+
+        .card-sekilas{
+            padding: 10px;
+            color: #333;                    
+            h3{
+                margin-bottom: 20px;
+                
+            }
+            h4{
+                font-weight: bold;
+                font-size: 18px;
+                margin: 0px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        //Pencarian arsip
+        .card-search{
+            padding: 20px;
+            border-radius: 11px;
+            margin-left: 10px;
+            width: 89%;
+            color:  #071C4D;
+            font-weight: bold;
+            @media (min-width:100px) and (max-width: 600px){
+                .search_kecamatan{
+                    width: 100%;
+                }
+                .search_kelurahan{
+                    width: 100%;
+                }
+            }
+            .search_kecamatan{
+                border-radius: 11px;
+            }
+            .search_kelurahan{
+                border-radius: 11px;
+            }
+            .kata-kunci{
+                width: 95%;               
+                border-radius: 11px;
+                background: #fff;
+                border: 1px solid #707070;
+
+            }
+            td{
+                padding: 5px;
+            }
+            .tgl{
+                border-radius: 11px;
+                border: 1px solid #707070;
+            }
+            .kirim_wilayah{
+                background-color:  #071C4D;
+                border-radius: 11px;
+                border: 1px transparent;
+                color: #fff;
+                padding: 2px 10px;
+            }
+            .kirim_arsip{
+                background-color:  #071C4D;
+                border-radius: 11px;
+                border: 1px transparent;
+                color: #fff;
+                padding: 2px 10px;
+            }
+        
+        }
+        .card-masuk{
+            padding: 20px;
+            border-radius: 11px;
+            margin-top: 50px;
+            font-weight: bold;
+            p{
+                font-weight: bold;
+            }
+            td{
+                padding: 10px;
+            }
+        
+            input{
+                width: 100%;
+                margin-bottom: 0;
+                border-radius: 11px;
+                border: 1px solid #707070;
+                
+            }
+            .masuk{
+                padding-right: 80px;
+
+            }
+            .kirim-masuk{
+                background-color: #071c4d;
+                color: #fff;
+                
+            }
+        }
+        
+        //indeks keamanan
+        .card-keamanan{
+            margin-top: 50px;
+            padding: 30px;
+            color: #000;
+            border-radius: 11px;
+            border: 1px solid #2d2929;
+
+            h2{
+                font-family: "Segoe UI";
+                font-weight: bold;
+                font-size: 18px;
+                text-align: left;                
+                padding-bottom: 15px;
+                a{
+                    color: #142856;
+                }
+
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .content-isi-keamanan{
+            padding-top: 30px;
+            margin-left: 20px;
+            .img-content-isi{
+                width: 323px;
+                height: 162px;
+                box-shadow: 0px 3px 6px #000000;
+                margin-right: 12px;
+                margin-bottom: 10px;
+            }
+            .content-isi-berita{
+                margin-bottom: 25px;
+                .judul{
+
+                    font-family: Arial;
+                    font-weight: 300;
+                    font-size: 18px;
+                    text-align: left;
+                    margin-bottom: 5px;
+                    a{
+                        color: #906f16;
+
+                    }
+                }
+                p{
+                    font-family: Arial;
+                    font-weight: normal;
+                    font-size: 12px;
+                    text-align: left;
+                    color: #303030;
+
+                }
+                hr{
+                    width: auto;
+                    height: 0px;
+                    background: transparent;
+                    border: 1px solid #303030;
+
+                }
+
+            }
+            .card-indeks-content{
+                width: 80px;
+                height: 16px;
+                border-radius: 8px;
+                background: #1147ff;
+                border: 1px solid #707070;
+                margin-bottom: 8px;
+               
+                p{
+                    font-family: "Segoe UI";
+                    font-weight: bold;
+                    font-size: 10px;
+                    text-align: center;
+                    color: #fff;
+                }
+                
+
+
+            }
+        }
+        .pagination-arsip-keamanan{
+            margin-top: 20px;
+            a{
+                color: #142856;
+                font-weight: 600;
+            }
+        }
+
+        .card-detail-kontributor{
+            border-radius: 11px;
+            padding: 20px;
+        }
+        
+    }
+
+    //isi
+    .card-isi{
+        padding: 25px;
+        border-radius: 11px;
+        border: 1px solid #5c5b5b;
+        margin-bottom: 20px;
+        .row-isi{
+            margin: 10px 15px 0 0;
+            p{
+                color: #8c8c8c;
+                font-weight: bold;
+                font-size: 15px;
+
+            }            
+        }
+        h1{
+            
+            font-weight: bold;
+            font-size: 20px;
+            text-align: left;
+            color: #333;
+            margin-bottom: 0px;
+
+        }
+        img{
+            width: 680px;
+            margin: 10px 0 30px 0;
+                          
+        }
+        @media (min-width:100px) and (max-width: 600px){
+            img{
+                width: 315px;
+                margin: 30px 0;
+            }
+        }
+        p{
+            margin-bottom: 0px;
+
+            font-family: 'Times New Roman';
+            font-weight: normal;
+            font-size: 16px;
+            text-align: left;
+            color: #000;
+            span{
+                font-weight: 500;
+                font-weight: bold;
+
+            }
+
+        }
+       
+    }
+
+    //popular
+    .popular{
+
+        .popular-content{
+            padding-top: 25px;
+            padding-left: 10px ;
+            .popular-content-isi{
+                padding-bottom: 5px;
+                h3{
+                    font-family: Arial;
+                    font-weight: bold;
+                    font-size: 15px;
+                    text-align: left;
+                    margin-bottom: 2px;
+                    
+                    a{
+                        color: #303030;
+                    }
+        
+                }
+                p{
+                    font-family: Arial;
+                    font-weight: normal;
+                    font-size: 10px;
+                    text-align: left;
+                    color: #303030;
+                    padding:4px;
+                    margin-bottom: 2px;
+                    .index{
+                        float: left;
+                    }
+        
+                }
+                hr{
+                  padding: 0;
+                  margin: 0;
+                  background: transparent;
+                  border: 1px solid #303030;
+        
+                }
+    
+            }
+           
+        }
+
+    }
+    
+    //Tentang on News
+    .about-news{
+        padding-top: 30px;
+
+        .about-news-content{
+            margin: 0 10px 10px 10px;
+            a{
+                color: #303030;
+                font-size: 15px;
+                font-weight: bold;
+                width:auto;
+                padding-left: 10px ;
+
+            }
+            hr{
+             margin: 5px 0;
+                
+            }         
+
+        }
+    }
+
+    
+    .extra-content{
+        margin-top: 60px;
+        margin-bottom: 150px;
+        
+        //Berita Laiinya
+        .extra-content-isi{
+            padding-top: 30px;
+            margin-left: 20px;
+            .img-extra-content-isi{
+                width: 323px;
+                height: 162px;
+                box-shadow: 0px 3px 6px #000000;
+                margin-right: 12px;
+                margin-bottom: 10px;
+            }
+            .extra-content-isi-berita{
+                margin-bottom: 25px;
+                .judul{
+
+                    font-family: Arial;
+                    font-weight: bold;
+                    font-size: 18px;
+                    text-align: left;
+                    margin-bottom: 5px;
+                    a{
+                        color: #906f16;
+
+                    }
+                }
+                p{
+                    font-family: Arial;
+                    font-weight: normal;
+                    font-size: 12px;
+                    text-align: left;
+                    color: #303030;
+
+                }
+                hr{
+                    width: auto;
+                    height: 0px;
+                    background: transparent;
+                    border: 1px solid #303030;
+
+                }
+
+            }
+            .card-indeks-extra-content{
+                width: 80px;
+                height: 16px;
+                border-radius: 8px;
+                background: #1147ff;
+                border: 1px solid #707070;
+                margin-bottom: 8px;
+               
+                p{
+                    font-family: "Segoe UI";
+                    font-weight: bold;
+                    font-size: 10px;
+                    text-align: center;
+                    color: #fff;
+                }
+                
+
+
+            }
+        }
+        //arsip
+        .card-arsip{
+            margin-top: 50px;
+            padding: 30px;
+            color: #000;
+            border-radius: 11px;
+            border: 1px solid #2d2929;
+
+            h2{
+                font-family: "Segoe UI";
+                font-weight: bold;
+                font-size: 18px;
+                text-align: left;                
+                padding-bottom: 15px;
+                a{
+                    color: #142856;
+                }
+
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        //kontributorweb
+        .card-kontributor{
+            .widget-body{
+                
+                padding: 20px;
+                a{
+                    color: #000;
+                }
+                .well{
+                    border-radius: 11px;
+                    border: 1px solid #303030;
+                    .kiriman{
+                        padding: 20px 0;
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        //cardarsipkontributor
+        .card-arsip-kontributor{
+            border-radius: 11px;
+            padding: 20px;
+            p{
+                margin: 0;
+            }
+
+        }
+
+        .pagination-kontributor{
+            margin-top: 20px;
+            a{
+                color: #142856;
+                font-weight: 600;
+            }
+        }
+        .pagination-arsip{
+            margin-top: 20px;
+            a{
+                color: #142856;
+                font-weight: 600;
+            }
+        }
+
+   
+    }
+
+    //contributor
+    .extra-content-contributor{
+        
+        .contributor{
+            padding-top: 20px;
+            padding-left: 10px ;
+            .card-contributor{
+                border-radius: 10px;
+                border: 1px solid;
+                width: 280px;
+                .no{
+                    padding-left:5px ;
+                    padding-right:5px;
+                }
+                td{
+                    padding: 6px 0;
+                 }
+            }
+        }
+
+    }
+    
+}
+
+
+
+
+//mainsection
+
+.mainsection{
+     //margin-top:100px
+    margin-bottom: 100px;
+
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #707070;
+    .btn-get-started{
+        background-color:#288512;
+        font-weight: bold;
+        color: white;
+    }
+
+}
+
+.extra-mainsection{
+    padding-top: 30px;
+
+    hr{
+        border: 1px solid #707070;
+    }
+
+    .extra-index{
+        .extra-index-link{
+            font-family: Assistant;
+            font-weight: bold;
+            font-size: 15px;
+            text-align: left;
+            color: #b8b8b8;
+
+        }
+
+    }
+    ul{
+        margin-bottom: 0;
+        padding-left: 10px;
+    }
+}
+
+
+footer{
+   
+    margin-top: 15px;
+    background: #353535;
+    border: 1px solid #707070;
+    p{
+        padding: 8px 0;
+        margin-bottom: 0px;      
+        font-family: "Segoe UI";
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        color: #dbf0ce;
+
+    }
+
+}
+
